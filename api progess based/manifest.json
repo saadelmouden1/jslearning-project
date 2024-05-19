@@ -1,0 +1,10 @@
+{
+"name":"fined meals",
+"short name":"find meals",
+"start_url":"index.html",
+"background-color":"#ff4da6",
+"theme-color":"#ff80bf",
+"display":"standalone",
+
+
+}

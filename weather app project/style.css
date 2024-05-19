@@ -1,0 +1,58 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin:0;
+  font-family: 'Roboto';
+  background: #222;
+  background-image: url('https://source.unsplash.com/1600x900/?landscape');
+
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.card{
+  background: #000000d0;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 30px;
+  width: 100%;
+  margin: 1em;
+  font-size: 40px;
+}
+.search{
+  width: 100%;
+  display:flex;
+align-items: center;
+justify-content: center;
+}
+.search input{
+  width: 70%;
+  height: 50px;
+  border-radius: 3px;
+  outline:0;
+  border:0;
+}
+.weather > div{
+  font-size:30px;
+  margin-bottom: 10px;
+}
+@media (max-width:100vh) {
+.card{
+  background: #000000d0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+
+}
+
+  .weather > div{
+
+  }
+}

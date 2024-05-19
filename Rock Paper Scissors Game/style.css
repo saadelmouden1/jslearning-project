@@ -1,0 +1,144 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color: #232423;
+  display: flex;
+  align-items: center;
+
+  height: 100vh;
+  width: 100%
+  margin: auto;
+  flex-direction:column;
+  overflow-x: hidden;
+  position: relative;
+
+}
+.tb .tb1 .part1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1px;
+  background-color: #fff;
+  height: 50%;
+}
+.tb{
+  text-align: center;
+
+}
+.tb .tb1{
+  width: 200px;
+  height: 100px;
+  border: 2px solid #fff;
+  margin-bottom: 20px;
+}
+.tb .tb1 .part2{
+  display: flex;
+  align-items: center;
+  height: 50%
+}
+.tb .tb1 .part2 .p1,.tb .tb1 .part2 .pc{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+height: 100%;
+  color: #fff;
+width: 50%;
+  border: 1px solid #fff;
+}
+.tb .tb1 .part2 .pl1,.tb .tb1 .part2 .pcl{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+height: 100%;
+  color: #fff;
+width: 50%;
+  border: 1px solid #fff;
+}
+.player{
+  text-align: center;
+  color: #fff;
+}
+.pcplay{
+  text-align: center;
+  color: #fff;
+}
+h2{
+  margin-bottom: 20px;
+    color: #fff;
+}
+.player .images .not{
+  display:none;
+}
+.pcplay .choises .not{
+  display:none;
+}
+.agree{
+  position: absolute;
+  width: 400px;
+  height: 200px;
+
+  top: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.agree button{
+  background-color:#cfc19d ;
+  opacity: 0.75;
+  width: 200px;
+  height: 70px;
+  display: none;
+
+}
+.agree button.show{
+display: block;
+}
+@media (max-width:640px) {
+  .tb .tb1{
+    width: 100%;
+
+
+
+  }
+  .tb{
+    width: 100vw;
+    padding: 50px;
+  }
+
+  img{
+    width: 100px;
+  }
+  .player .images .not{
+    display:none;
+  }
+  .pcplay .choises .not{
+    display:none;
+  }
+  .agree{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+
+    top: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .agree button{
+    background-color:#cfc19d ;
+    opacity: 0.75;
+    width: 200px;
+    height: 70px;
+    display: none;
+
+  }
+  .agree button.show{
+  display: block;
+  }
+
+}
